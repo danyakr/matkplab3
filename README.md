@@ -82,7 +82,7 @@ pip install pyinstaller
 *build_windows.bat*  
 ```
 @echo off
-pyinstaller --onefile --add-data "sounds;sounds" --add-data "images;images" main.py
+pyinstaller --onefile --add-data "resources:resources" main.py
 pause
 ```
 
